@@ -4,7 +4,70 @@
   <url>
     <loc>https://komorecoi.github.io/2024/07/10/hello-world/</loc>
     
-    <lastmod>2024-07-11</lastmod>
+    <lastmod>2024-07-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://komorecoi.github.io/tags/index.html</loc>
+    
+    <lastmod>2024-07-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://komorecoi.github.io/repository/index.html</loc>
+    
+    <lastmod>2024-07-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://komorecoi.github.io/links/index.html</loc>
+    
+    <lastmod>2024-07-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://komorecoi.github.io/books/index.html</loc>
+    
+    <lastmod>2024-07-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://komorecoi.github.io/categories/index.html</loc>
+    
+    <lastmod>2024-07-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://komorecoi.github.io/about/index.html</loc>
+    
+    <lastmod>2024-07-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://komorecoi.github.io/404.html</loc>
+    
+    <lastmod>2024-07-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,11 +76,18 @@
 
   <url>
     <loc>https://komorecoi.github.io/</loc>
-    <lastmod>2024-07-23</lastmod>
+    <lastmod>2024-07-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://komorecoi.github.io/tags/%E8%80%83%E7%A0%94/</loc>
+    <lastmod>2024-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 
   
