@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://komorecoi.github.io/2020/10/16/Java%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/</loc>
+    
+    <lastmod>2024-07-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://komorecoi.github.io/2024/07/29/Java%E9%9B%86%E5%90%88/</loc>
+    
+    <lastmod>2024-07-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://komorecoi.github.io/links/index.html</loc>
     
     <lastmod>2024-07-24</lastmod>
@@ -12,15 +30,6 @@
   
   <url>
     <loc>https://komorecoi.github.io/about/index.html</loc>
-    
-    <lastmod>2024-07-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://komorecoi.github.io/2024/07/10/hello-world/</loc>
     
     <lastmod>2024-07-24</lastmod>
     
@@ -58,19 +67,26 @@
 
   <url>
     <loc>https://komorecoi.github.io/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <lastmod>2024-08-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://komorecoi.github.io/tags/%E8%80%83%E7%A0%94/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <loc>https://komorecoi.github.io/tags/%E9%9B%86%E5%90%88/</loc>
+    <lastmod>2024-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
 
+  
+  <url>
+    <loc>https://komorecoi.github.io/categories/Java/</loc>
+    <lastmod>2024-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>

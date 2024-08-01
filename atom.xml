@@ -6,7 +6,7 @@
   <link href="https://komorecoi.github.io/atom.xml" rel="self"/>
   
   <link href="https://komorecoi.github.io/"/>
-  <updated>2024-07-24T03:44:24.457Z</updated>
+  <updated>2024-07-31T01:40:16.308Z</updated>
   <id>https://komorecoi.github.io/</id>
   
   <author>
@@ -17,24 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://komorecoi.github.io/2024/07/10/hello-world/"/>
-    <id>https://komorecoi.github.io/2024/07/10/hello-world/</id>
-    <published>2024-07-10T03:19:21.038Z</published>
-    <updated>2024-07-24T03:44:24.457Z</updated>
+    <title>Java集合</title>
+    <link href="https://komorecoi.github.io/2024/07/29/Java%E9%9B%86%E5%90%88/"/>
+    <id>https://komorecoi.github.io/2024/07/29/Java%E9%9B%86%E5%90%88/</id>
+    <published>2024-07-29T11:14:36.000Z</published>
+    <updated>2024-07-31T01:40:16.308Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+    <category term="Java" scheme="https://komorecoi.github.io/categories/Java/"/>
+    
+    
+    <category term="集合" scheme="https://komorecoi.github.io/tags/%E9%9B%86%E5%90%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java类型转换</title>
+    <link href="https://komorecoi.github.io/2020/10/16/Java%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/"/>
+    <id>https://komorecoi.github.io/2020/10/16/Java%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/</id>
+    <published>2020-10-16T08:14:36.000Z</published>
+    <updated>2024-07-31T10:00:53.417Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Java数据类型转换"><a href="#Java数据类型转换" class="headerlink" title="Java数据类型转换"></a>Java数据类型转换</h1><h2 id="基本数据类型转换"><a href="#基本数据类型转换" class="headerlink" title="基本数据类型转换"></a>基本数据类型转换</h2><p>在Java程序中，需要进行转换的基本数据类型只有七种，不包含boolean类型。</p><p>Java中，整形常数默认是int，浮点型常数默认是double。</p><h3 id="自动类型提升"><a href="#自动类型提升" class="headerlink" title="自动类型提升"></a>自动类型提升</h3><p>基本数据类型转换的规则如下（byte、short、char是平级）：</p><p><img src="https://raw.githubusercontent.com/KomoreCoi/imgs/main/imgs/202407311124419.png" alt="image-20240731112452306"></p><ol><li><p>存储范围小的数据类型的值赋值给存储范围大的数据类型的变量</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">int i = &#x27;a&#x27;; // char自动升级为int</span><br><span class="line">double d = 100; // int自动升级为double</span><br></pre></td></tr></table></figure></li><li></li></ol>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;h1 id=&quot;Java数据类型转换&quot;&gt;&lt;a href=&quot;#Java数据类型转换&quot; class=&quot;headerlink&quot; title=&quot;Java数据类型转换&quot;&gt;&lt;/a&gt;Java数据类型转换&lt;/h1&gt;&lt;h2 id=&quot;基本数据类型转换&quot;&gt;&lt;a href=&quot;#基本数据类型转换&quot; cla</summary>
       
     
     
     
+    <category term="Java" scheme="https://komorecoi.github.io/categories/Java/"/>
     
-    <category term="考研" scheme="https://komorecoi.github.io/tags/%E8%80%83%E7%A0%94/"/>
     
   </entry>
   
