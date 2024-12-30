@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>星河清梦</title>
+  
+  
+  <link href="https://komorecoi.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://komorecoi.github.io/"/>
+  <updated>2024-08-21T15:17:18.948Z</updated>
+  <id>https://komorecoi.github.io/</id>
+  
+  <author>
+    <name>布响丸辣</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java集合</title>
+    <link href="https://komorecoi.github.io/2024/07/29/Java%E9%9B%86%E5%90%88/"/>
+    <id>https://komorecoi.github.io/2024/07/29/Java%E9%9B%86%E5%90%88/</id>
+    <published>2024-07-29T11:14:36.000Z</published>
+    <updated>2024-08-21T15:17:18.948Z</updated>
+    
+    
+    
+    
+    <category term="Java" scheme="https://komorecoi.github.io/categories/Java/"/>
+    
+    
+    <category term="集合" scheme="https://komorecoi.github.io/tags/%E9%9B%86%E5%90%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java类型转换</title>
+    <link href="https://komorecoi.github.io/2020/10/16/Java%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/"/>
+    <id>https://komorecoi.github.io/2020/10/16/Java%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/</id>
+    <published>2020-10-16T08:14:36.000Z</published>
+    <updated>2024-08-21T15:17:18.971Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Java数据类型转换"><a href="#Java数据类型转换" class="headerlink" title="Java数据类型转换"></a>Java数据类型转换</h1><h2 id="基本数据类型转换"><a href="#基本数据类型转换" class="headerlink" title="基本数据类型转换"></a>基本数据类型转换</h2><p>在Java程序中，需要进行类型转换的基本数据类型只有七种，不包含boolean类型。</p><p>Java中，整形常数默认是int，浮点型常数默认是double。</p><h3 id="自动类型提升"><a href="#自动类型提升" class="headerlink" title="自动类型提升"></a>自动类型提升</h3><p>基本数据类型转换的规则如下（byte、short、char是平级）：</p><p><img src="https://raw.githubusercontent.com/KomoreCoi/imgs/main/imgs/202407311124419.png" alt="image-20240731112452306"></p><ol><li><p>存储范围小的数据类型的值赋值给存储范围大的数据类型的变量</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">int i = &#x27;a&#x27;; // char自动升级为int</span><br><span class="line">double d = 100; // int自动升级为double</span><br></pre></td></tr></table></figure></li><li></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Java数据类型转换&quot;&gt;&lt;a href=&quot;#Java数据类型转换&quot; class=&quot;headerlink&quot; title=&quot;Java数据类型转换&quot;&gt;&lt;/a&gt;Java数据类型转换&lt;/h1&gt;&lt;h2 id=&quot;基本数据类型转换&quot;&gt;&lt;a href=&quot;#基本数据类型转换&quot; cla</summary>
+      
+    
+    
+    
+    <category term="Java" scheme="https://komorecoi.github.io/categories/Java/"/>
+    
+    
+  </entry>
+  
+</feed>
