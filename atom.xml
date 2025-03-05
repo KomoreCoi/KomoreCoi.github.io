@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>星河清梦</title>
+  
+  
+  <link href="https://komorecoi.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://komorecoi.github.io/"/>
+  <updated>2025-03-05T17:53:15.506Z</updated>
+  <id>https://komorecoi.github.io/</id>
+  
+  <author>
+    <name>布响丸辣</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>摩尔斯电码</title>
+    <link href="https://komorecoi.github.io/2025/03/06/%E6%91%A9%E5%B0%94%E6%96%AF%E7%94%B5%E7%A0%81/"/>
+    <id>https://komorecoi.github.io/2025/03/06/%E6%91%A9%E5%B0%94%E6%96%AF%E7%94%B5%E7%A0%81/</id>
+    <published>2025-03-05T17:45:06.000Z</published>
+    <updated>2025-03-05T17:53:15.506Z</updated>
+    
+    <content type="html"><![CDATA[<p>摩尔斯电码（Morse code）也被称作摩斯密码，是一种时通时断的信号代码，通过不同的排列顺序来表达不同的<a href="https://baike.baidu.com/item/%E8%8B%B1%E6%96%87%E5%AD%97%E6%AF%8D/6779426?fromModule=lemma_inlink">英文字母</a>、数字和标点符号。它由两种基本信号组成：短促的点信号“<code>·</code>”，读“<code>滴</code>”；保持一定时间的长信号“<code>—</code>”，读“<code>嗒</code>”。然后，组成了26个字母，从而拼写出相应的单词。</p><img src="https://raw.githubusercontent.com/KomoreCoi/imgs/main/imgs/202503060147542.png" alt="image-20220520105721126" style="zoom:67%;" /><p>记忆技巧：</p><img src="https://raw.githubusercontent.com/KomoreCoi/imgs/main/imgs/202503060147539.jpg" alt="morsecode" style="zoom:50%;" /><p>我们偶尔会看到的：SOS，即为：</p><p><img src="https://raw.githubusercontent.com/KomoreCoi/imgs/main/imgs/202503060148195.png" alt="image-20220520110206899"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;摩尔斯电码（Morse code）也被称作摩斯密码，是一种时通时断的信号代码，通过不同的排列顺序来表达不同的&lt;a href=&quot;https://baike.baidu.com/item/%E8%8B%B1%E6%96%87%E5%AD%97%E6%AF%8D/6779426?</summary>
+      
+    
+    
+    
+    <category term="进制" scheme="https://komorecoi.github.io/categories/%E8%BF%9B%E5%88%B6/"/>
+    
+    
+    <category term="摩斯电码" scheme="https://komorecoi.github.io/tags/%E6%91%A9%E6%96%AF%E7%94%B5%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo测试</title>
+    <link href="https://komorecoi.github.io/2024/07/29/hexo%E6%B5%8B%E8%AF%95/"/>
+    <id>https://komorecoi.github.io/2024/07/29/hexo%E6%B5%8B%E8%AF%95/</id>
+    <published>2024-07-29T11:14:36.000Z</published>
+    <updated>2025-03-05T17:35:47.008Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">title: hexo测试</span><br><span class="line">categories: [cat1,cat2]</span><br><span class="line">tags: [tag1,tag2]</span><br><span class="line">date: 2024-07-29 19:14:36</span><br><span class="line">toc: true</span><br></pre></td></tr></table></figure><p>帖子模板在<code>scaffolds</code>文件夹下</p><p>描述下使用拼音输入光标总是跳到描述中，使用英文没有这个问题。本来以为是typora的bug，原来是输入法的问题，使用搜狗后解决！！！可恨的微软拼音！！！</p><h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure><p>Hexo 有三种默认布局：<code>post</code>、<code>page</code> 和 <code>draft</code>。 每个布局创建的文件会被保存到不同的路径。 </p><p>不写layout参数，默认是<code>post</code>，新创建的帖子被保存到 <code>source/_posts</code> 文件夹。<code>post</code>是默认的<code>布局</code>，但你也可以提供自己的布局。 您可以通过编辑 <code>_config.yml</code> 中的 <code>default_layout</code> 设置来更改默认布局。</p><p>使用布局 <code>draft</code> 来创建草稿，新创建的草稿被保存到 <code>source/_darfts</code> 文件夹。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 发表草稿</span><br><span class="line">hexo publish [layout] &lt;filename&gt;</span><br></pre></td></tr></table></figure><h2 id="指令"><a href="#指令" class="headerlink" title="指令"></a>指令</h2><h3 id="clean"><a href="#clean" class="headerlink" title="clean"></a>clean</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure><p>清除缓存文件 (<code>db.json</code>) 和已生成的静态文件 (<code>public</code>)。</p><h3 id="generate"><a href="#generate" class="headerlink" title="generate"></a>generate</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>生成静态文件。</p><table><thead><tr><th align="left">选项</th><th align="left">描述</th></tr></thead><tbody><tr><td align="left"><code>-d</code>, <code>--deploy</code></td><td align="left">在生成完成后部署。</td></tr><tr><td align="left"><code>-w</code>, <code>--watch</code></td><td align="left">监视文件变动</td></tr><tr><td align="left"><code>-b</code>, <code>--bail</code></td><td align="left">生成过程中如果发生任何未处理的异常则抛出异常</td></tr><tr><td align="left"><code>-f</code>, <code>--force</code></td><td align="left">强制重新生成</td></tr><tr><td align="left"><code>-c</code>, <code>--concurrency</code></td><td align="left">要同时生成的文件的最大数量。 默认无限制</td></tr></tbody></table><h3 id="server"><a href="#server" class="headerlink" title="server"></a>server</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>启动服务器。 默认情况下，访问网址为： <code>http://localhost:4000/</code>。</p><table><thead><tr><th align="left">选项</th><th align="left">描述</th></tr></thead><tbody><tr><td align="left"><code>-p</code>, <code>--port</code></td><td align="left">重设端口</td></tr><tr><td align="left"><code>-s</code>, <code>--static</code></td><td align="left">只使用静态文件</td></tr><tr><td align="left"><code>-l</code>, <code>--log</code></td><td align="left">启用日志。 Override logger format.</td></tr></tbody></table><h3 id="deploy"><a href="#deploy" class="headerlink" title="deploy"></a>deploy</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>部署你的网站。</p><table><thead><tr><th align="left">选项</th><th align="left">描述</th></tr></thead><tbody><tr><td align="left"><code>-g</code>, <code>--generate</code></td><td align="left">在部署前生成</td></tr></tbody></table><h2 id="小技巧"><a href="#小技巧" class="headerlink" title="小技巧"></a>小技巧</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># 清除+生成+启动</span><br><span class="line">hexo clean &amp; hexo g &amp; hexo s</span><br><span class="line"># 清除+生成+部署</span><br><span class="line">hexo clean &amp; hexo g &amp; hexo d</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;描述&quot;&gt;&lt;a href=&quot;#描述&quot; class=&quot;headerlink&quot; title=&quot;描述&quot;&gt;&lt;/a&gt;描述&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;s</summary>
+      
+    
+    
+    
+    
+    <category term="hexo" scheme="https://komorecoi.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
