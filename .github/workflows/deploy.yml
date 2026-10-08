@@ -1,0 +1,68 @@
+# Hexo 自动部署到 GitHub Pages
+#
+# 启用步骤：
+#   1. 将本仓库源码推送到 GitHub（必须包含 themes/pure 目录，因为主题保持本地目录，需一并提交）。
+#   2. 仓库 Settings > Pages > Source 选择 “GitHub Actions”。
+#   3. 之后每次 push 到 main 分支即自动构建并发布。
+#
+# 说明：
+#   - 本工作流假设“源码仓库”即“发布仓库”（Pages 用 GitHub Actions 方式部署到自身仓库）。
+#   - 若你的源码与发布目标不是同一仓库（例如源码在 blog 仓库、发布到 <user>.github.io），
+#     请改用 peaceiris/actions-gh-pages@v3：将 build 末尾的 upload-pages-artifact 替换为
+#        - uses: peaceiris/actions-gh-pages@v3
+#          with:
+#            external_repository: KomoreCoi/KomoreCoi.github.io
+#            publish_branch: main
+#            publish_dir: ./public
+#            personal_token: ${{ secrets.DEPLOY_TOKEN }}
+#     并删除下方的 deploy job 与 pages 权限。
+name: Deploy Hexo to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate static site
+        run: npx hexo generate
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

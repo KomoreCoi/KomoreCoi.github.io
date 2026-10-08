@@ -1,0 +1,19 @@
+.DS_Store
+node_modules/
+tmp/
+source/CNAME
+
+# Hexo generated output & cache
+public/
+db.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Note: themes/pure, source/images, source/_posts must be committed (do NOT ignore).
